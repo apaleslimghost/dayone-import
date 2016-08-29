@@ -1,0 +1,22 @@
+{
+  "name": "dayone-import",
+  "version": "0.0.0",
+  "main": "index.js",
+  "bin": {
+    "dayone-import": "bin.js"
+  },
+  "keywords": [],
+  "author": "Matt Brennan <matt@153.io> (http://blog.153.io/)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quarterto/dayone-import.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quarterto/dayone-import/issues"
+  },
+  "homepage": "https://github.com/quarterto/dayone-import#readme",
+  "description": ""
+}
