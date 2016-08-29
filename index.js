@@ -9,7 +9,7 @@ ${tags.map(tag => `#${tag}`).join(' ')}`;
 
 function dayone(note) {
 	const {stdout, stderr, status, error} = spawnSync('dayone', [
-		`-d="${note.created.toLocaleString()}"`,
+		`-d="${new Date(note.created).toLocaleString()}"`,
 		'new',
 	], {
 		input: formatNoteBody(note),
